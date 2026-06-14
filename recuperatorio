@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>teamLab - Arte Inmersivo</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#111;
+    color:white;
+    line-height:1.8;
+}
+
+header{
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    font-size:4rem;
+    margin-bottom:20px;
+    text-shadow:2px 2px 10px black;
+}
+
+header p{
+    font-size:1.4rem;
+    max-width:900px;
+    text-shadow:2px 2px 10px black;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    background:black;
+    padding:15px;
+    text-align:center;
+    z-index:100;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    margin-bottom:25px;
+    text-align:center;
+    font-size:2rem;
+}
+
+blockquote{
+    background:#222;
+    padding:25px;
+    border-left:5px solid white;
+    font-style:italic;
+    margin-bottom:30px;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+    margin-top:30px;
+}
+
+.galeria img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.lista{
+    max-width:600px;
+    margin:auto;
+}
+
+.lista li{
+    margin:10px 0;
+}
+
+footer{
+    background:black;
+    text-align:center;
+    padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>teamLab</h1>
+    <p>Arte inmersivo, tecnología y experiencias colectivas</p>
+</header>
+
+<nav>
+    <a href="#parte1">Parte 1</a>
+    <a href="#parte2">Parte 2</a>
+    <a href="#parte3">Parte 3</a>
+</nav>
+
+<!-- PARTE 1 -->
+
+<section id="parte1">
+
+<h2>Un colectivo que redefine la experiencia artística</h2>
+
+<blockquote>
+“Queremos explorar la relación entre las personas y el mundo, eliminando las fronteras entre la obra, el espectador y el espacio.” — teamLab
+</blockquote>
+
+<p>
+teamLab es un colectivo interdisciplinario de artistas, programadores, diseñadores, ingenieros y especialistas en distintas áreas que trabaja en la creación de experiencias inmersivas basadas en tecnología digital. Fundado en Japón en 2001, su propuesta combina arte, ciencia, diseño y programación para desarrollar entornos interactivos de gran escala.
+</p>
+
+<br>
+
+<p>
+Sus obras se caracterizan por el uso de proyecciones digitales, sensores y sistemas informáticos que reaccionan a la presencia y el movimiento de los visitantes. En lugar de contemplar una obra estática, el público participa activamente en la construcción de la experiencia visual.
+</p>
+
+<br>
+
+<p>
+El objetivo de teamLab es cuestionar las divisiones tradicionales entre las personas, la naturaleza y la tecnología. Sus instalaciones buscan generar una percepción más integrada del mundo, donde los límites físicos y conceptuales se vuelven difusos.
+</p>
+
+<br>
+
+<h2>Trayectoria y reconocimiento internacional</h2>
+
+<p>
+Desde sus primeros proyectos, teamLab se destacó por desarrollar propuestas que trascendían las categorías artísticas convencionales. Su enfoque colaborativo permitió integrar conocimientos de diversas disciplinas para crear experiencias innovadoras que combinan creatividad y tecnología avanzada.
+</p>
+
+<br>
+
+<p>
+A lo largo de los años, el colectivo ha presentado exposiciones en museos, galerías y espacios culturales de numerosos países. Sus instalaciones atraen a millones de visitantes y han contribuido a popularizar el arte digital inmersivo a nivel global.
+</p>
+
+<br>
+
+<p>
+Uno de sus mayores logros ha sido la creación de museos permanentes dedicados a experiencias digitales interactivas. Estos espacios han consolidado su reputación como una de las organizaciones más influyentes en el desarrollo del arte tecnológico contemporáneo.
+</p>
+
+<div class="galeria">
+    <img src="teamlab-1.jpg" alt="teamLab">
+    <img src="teamlab-2.jpg" alt="teamLab">
+</div>
+
+</section>
+
+<!-- PARTE 2 -->
+
+<section id="parte2">
+
+<h2>Crear mundos digitales en constante transformación</h2>
+
+<p>
+La metodología de trabajo de teamLab se basa en la colaboración entre especialistas de distintas áreas. Artistas, ingenieros, programadores y diseñadores trabajan conjuntamente para desarrollar sistemas capaces de generar imágenes, sonidos y comportamientos dinámicos que responden al entorno y a la interacción humana.
+</p>
+
+<br>
+
+<p>
+Las obras son concebidas como ecosistemas digitales donde cada elemento influye sobre los demás. Los movimientos de los visitantes pueden alterar la apariencia de una instalación, modificar trayectorias visuales o provocar nuevas animaciones, creando experiencias únicas e irrepetibles para cada persona.
+</p>
+
+<br>
+
+<h2>Obras y conceptos clave</h2>
+
+<ul class="lista">
+    <li>Borderless</li>
+    <li>Planets</li>
+    <li>Flowers and People</li>
+    <li>Universe of Water Particles</li>
+    <li>Arte inmersivo</li>
+    <li>Interactividad digital</li>
+</ul>
+
+<div class="galeria">
+    <img src="teamlab-3.jpg" alt="teamLab">
+    <img src="teamlab-4.jpg" alt="teamLab">
+</div>
+
+</section>
+
+<!-- PARTE 3 -->
+
+<section id="parte3">
+
+<h2>Un arte que elimina fronteras</h2>
+
+<p>
+Uno de los conceptos fundamentales en la obra de teamLab es la idea de "sin fronteras". Sus instalaciones buscan romper las divisiones entre las obras individuales, permitiendo que las imágenes y los elementos visuales fluyan libremente entre distintos espacios.
+</p>
+
+<br>
+
+<p>
+Esta propuesta también cuestiona la separación entre espectador y obra. La experiencia artística deja de estar delimitada por un objeto específico y pasa a convertirse en un entorno compartido en constante evolución.
+</p>
+
+<br>
+
+<h2>Naturaleza y tecnología</h2>
+
+<p>
+Muchas de las creaciones de teamLab toman inspiración en fenómenos naturales como flores, agua, bosques o ciclos estacionales. Estos elementos son reinterpretados mediante herramientas digitales que permiten representar procesos complejos y dinámicos.
+</p>
+
+<br>
+
+<p>
+Lejos de presentar tecnología y naturaleza como conceptos opuestos, el colectivo propone una visión integrada. Sus obras sugieren que las herramientas digitales pueden ayudar a comprender mejor los sistemas naturales y las relaciones que los conectan.
+</p>
+
+<br>
+
+<h2>Experiencias colectivas e interacción</h2>
+
+<p>
+La participación del público es un componente esencial en las instalaciones de teamLab. Las acciones de una persona pueden afectar la experiencia de otras, generando entornos donde las interacciones individuales producen consecuencias colectivas.
+</p>
+
+<br>
+
+<p>
+Este enfoque transforma la visita en una experiencia compartida. Las obras fomentan la exploración, la colaboración y el descubrimiento, convirtiendo cada recorrido en una oportunidad para reflexionar sobre la relación entre individuos, comunidades y espacios digitales.
+</p>
+
+</section>
+
+<footer>
+    <h3>Contacto</h3>
+    <p>teamlab@artedigital.com</p>
+    <br>
+    <p>Material educativo sobre teamLab.</p>
+</footer>
+
+</body>
+</html>
